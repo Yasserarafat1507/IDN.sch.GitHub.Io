@@ -338,8 +338,10 @@ span{
 }
 .col .social a:hover{
     transform: scale(1.2);
-    color: black;
-    background: var(--text-color);
+    color: var(--main-color);
+    background: var(--bg-color);
+    border: solid 2px var(--main-color);
+    border-radius: 50%;
 }
 /* footer end */
  /* responshif */
