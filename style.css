@@ -232,6 +232,14 @@ span{
     margin-bottom: 4rem;
 }
 /* jurusan end */
+/* sponsor star */
+.sponsor{
+    background: var(--second-bg-color);
+}
+.sponsor h2{
+    margin-bottom: 4rem;
+}
+/* sponsor end */
 /* list start */
 .list{
     background: var(--second-bg-color);
