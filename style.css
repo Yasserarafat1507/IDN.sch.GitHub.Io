@@ -309,9 +309,8 @@ span{
     margin-bottom: 20px;
 }
 .col ul li a:hover{
-    color: #9897a9;
+    color: var(--main-color);
     font-size: 1.1rem;
-    display: block;
     text-transform: capitalize;
     transition: .5s;
 }
