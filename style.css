@@ -31,6 +31,7 @@ body{
     color: var(--text-color);
 }
 /* body end */
+
 /* nav start */
 .header{
     position: fixed;
@@ -68,6 +69,7 @@ body{
     display: none;
 }
 /* nav end */
+
 /* home start */
 .home{
     color: var(--bg-color);
@@ -131,6 +133,7 @@ span{
     transform: scale(1.1);
 }
 /* home end */
+
 /* about start */
 .about{
     display: flex;
@@ -175,6 +178,7 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
 }
 /* about end */
+
 /* achievment start */
 .achievment{
     background: var(--bg-color);
@@ -230,6 +234,7 @@ span{
     color: var(--bg-color);
 }
 /* achievment end */
+
 /* activity stert */
 .activity{
     background: var(--second-bg-color);
@@ -238,6 +243,7 @@ span{
     margin-bottom: 4rem;
 }
 /* activity end */
+
 /* jurusan start */
 .jurusan{
     background: var(--bg-color);
@@ -246,6 +252,7 @@ span{
     margin-bottom: 4rem;
 }
 /* jurusan end */
+
 /* sponsor star */
 .sponsor{
     background: var(--second-bg-color);
@@ -254,6 +261,7 @@ span{
     margin-bottom: 4rem;
 }
 /* sponsor end */
+
 /* list start */
 .list{
     background: url(img/idn-boarding-school.jpg);
@@ -299,6 +307,7 @@ form{
     background: var(--second-bg-color);
 }
 /* list end */
+
 /* footer start */
 .main{
     display: flex;
@@ -363,6 +372,7 @@ form{
     border-radius: 50%;
 }
 /* footer end */
+
  /* responshif */
 @media (max-width: 768px){
     #menu-icon{
