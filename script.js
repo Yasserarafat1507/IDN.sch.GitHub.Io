@@ -31,7 +31,7 @@ window.onscroll= () => {
 };
     //typed js
     const typed = new Typed('.multiple-text',{
-        strings:['Exper IT','pintar Gaji?'],
+        strings:['Exper IT','pintar ngaji?'],
         teypSpeed:100,
         backSpeed:100,
         backDelay:1000,
