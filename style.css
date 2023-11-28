@@ -16,6 +16,7 @@
     --text-color:#000000;
     --main-color:rgb(0, 162, 255);
     --nav-color:rgba(0, 0, 255, 0);
+    --home-color: rgba(104, 105, 104, .7);
 }
 html{
     font-size: 62.5%;
@@ -76,6 +77,19 @@ body{
     background-image: url(img/idn-boarding-school.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.home::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--home-color);
+}
+.home-content{
+    z-index: 1;
 }
 .home-content h3:nth-of-type(2){
     margin-bottom: 2rem;
