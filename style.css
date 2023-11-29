@@ -264,17 +264,29 @@ span{
 
 /* list start */
 .list{
-    background: url(img/idn-boarding-school.jpg);
+    color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+.list-container{
+    z-index: 1;
 }
 .list h2{ 
     margin-top: 4rem;
+    z-index: 1;
 }
 .list form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
+    z-index: 1;
+
 }
 .list form .input-box{
     display: flex;
