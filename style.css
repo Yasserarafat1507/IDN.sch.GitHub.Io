@@ -198,6 +198,7 @@ span{
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
+    margin-top: 3rem;
 }
 .achivement-box img{
     width: 100%;
@@ -345,6 +346,10 @@ form{
     left: 0;
     bottom: -8px;
     background: var(--main-color);
+}
+.col p{
+    font-size: .9rem;
+    text-align: left;
 }
 .col ul li:not(last-child){
     margin-bottom: 20px;
