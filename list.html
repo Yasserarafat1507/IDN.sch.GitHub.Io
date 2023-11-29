@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- link icon -->
     <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <!-- script JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- navbar start -->
@@ -22,6 +24,12 @@
         </nav>
     </header>
     <!-- navbar end -->
+
+    <!-- loder start -->
+    <div class="bg-loader home">
+        <div class="loader"></div>
+    </div>
+    <!-- loder end -->
 
     <!-- list start -->
     <section class="list home" id="list">
@@ -106,5 +114,15 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- script JS -->
     <script src="script.js"></script>
+    <!-- script loader -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var durasiPenyembunyian = 1000;
+
+            setTimeout(function(){
+            $(".bg-loader").hide();
+        }, durasiPenyembunyian);
+        })
+    </script>
 </body>
 </html>
