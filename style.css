@@ -391,7 +391,10 @@ form{
 /* footer end */
 
  /* responshif */
-@media (max-width: 768px){
+ @media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
     #menu-icon{
         display: block;
     }
@@ -419,6 +422,8 @@ form{
         border: solid black 1px;
         padding: 10px;
     }
+}
+@media (max-width: 768px){
     .home{
         flex-direction: column;
     }
