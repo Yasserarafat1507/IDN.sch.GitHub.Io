@@ -322,23 +322,30 @@ form{
 /* list end */
 
 /* footer start */
-.main{
+.main {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Mengizinkan kolom untuk membungkus */
+    justify-content: space-between; /* Memberikan jarak antar kolom */
 }
-.footer{
+
+.footer {
     padding: 10px 0;
 }
-.col{
-    width: 25%;
+
+.col {
+    width: calc(25% - 20px); /* Lebar kolom dengan margin */
+    margin: 10px; /* Margin antar kolom */
+    box-sizing: border-box; /* Menghitung padding dan margin dalam lebar kolom */
 }
-.col h4{
+
+.col h4 {
     font-size: 1.2rem;
     color: var(--text-color);
     margin-bottom: 25px;
     position: relative;
 }
-.col h4::before{
+
+.col h4::before {
     content: '';
     position: absolute;
     height: 2px;
@@ -347,29 +354,35 @@ form{
     bottom: -8px;
     background: var(--main-color);
 }
-.col p{
+
+.col p {
     font-size: .9rem;
     text-align: left;
 }
-.col ul li:not(last-child){
+
+.col ul li:not(:last-child) {
     margin-bottom: 20px;
 }
-.col ul li a:hover{
+
+.col ul li a:hover {
     color: var(--main-color);
     font-size: 1.1rem;
     text-transform: capitalize;
     transition: .5s;
 }
-.col ul li a{
+
+.col ul li a {
     color: var(--text-color);
     transform: translateX(-12px);
 }
-.col .social{
+
+.col .social {
     width: 220px;
     display: flex;
     align-items: center;
 }
-.col .social a{
+
+.col .social a {
     height: 40px;
     width: 40px;
     background: var(--main-color);
@@ -381,7 +394,8 @@ form{
     border-radius: 50%;
     margin: 4px;
 }
-.col .social a:hover{
+
+.col .social a:hover {
     transform: scale(1.2);
     color: var(--main-color);
     background: var(--bg-color);

@@ -37,3 +37,15 @@ window.onscroll= () => {
         backDelay:1000,
         loop:true
     });
+
+    //scroll reveal
+ScrollReveal({ 
+    reset: true ,
+    distance: '80px',
+    duration: 2000,
+    dalay: 200
+});
+    ScrollReveal().reveal('.home-content,.heading,', { origin: 'top' });
+    ScrollReveal().reveal('.achivement-box, .contact form, .skill-box,.about-container',  { origin: 'bottom' });
+    ScrollReveal().reveal('.home-content p, .about-content p,.text', { origin: 'right' });
+    ScrollReveal().reveal('.about-img', { origin: 'left' });
